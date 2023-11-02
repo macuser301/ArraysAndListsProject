@@ -26,10 +26,12 @@ namespace ArraysAndLists
                 if (numbers[i] % 2 == 0)
                 {
                     evens.Add(numbers[i]);
+                    Console.WriteLine($"{numbers[i]} is even");
                 }
                 else
                 {
                     odds.Add(numbers[i]);
+                    Console.WriteLine($"{numbers[i]} is odd");
                 }
             }
 
